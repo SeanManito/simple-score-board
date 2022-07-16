@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    color: white;
+    border: none;
+    border-radius: 45%;
+    padding-top: 6rem;
+}
+.container h1 {
+    font-size: 80px;
+}
+.flex-score-container {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    font-size: 30px;
+   margin-top: 3rem;
+}
+
+
+.flex-container-btn {
+    display: flex;
+    width: 38%;
+    justify-content: space-around;
+    padding: 2rem;
+    
+}
+.home-btn button {
+    font-size: 20px;
+    padding: 5px;
+    transition: color 0.15s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.guest-btn button {
+    font-size: 20px;
+    padding: 5px;
+    transition: color 0.15s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.reset-btn {
+    font-size: 20px;
+    padding: 10px;
+    transition: color 0.15s;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+}
+.home-btn button:hover {
+    color: green;
+}
+.guest-btn button:hover {
+    color: blue;
+}
+.reset-btn:hover {
+    color: red;
+}
+
+
+
+

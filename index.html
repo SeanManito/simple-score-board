@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basketball.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Score Board</h1>
+        <div class="flex-score-container">
+            <div class="home-score-container">
+                <h2>HOME</h2>
+                <h3 id="home-score">0</h3>  
+        </div>
+        <div class="guest-score-container">
+            <h2>GUEST</h2>
+                <h3 id="guest-score">0</h3>   
+        </div>
+        </div>
+        <div class="flex-container-btn">
+
+            <div class="home-btn">
+            
+                <button onclick="homeplusone()">+1</button>
+                <button onclick="homeplustwo()">+2</button>
+                <button onclick="homeplusthree()">+3</button>
+            </div>
+            <div class="guest-btn">
+                <button onclick="guestplusone()">+1</button>
+                <button onclick="guestplustwo()">+2</button>
+                <button onclick="guestplusthree()">+3</button>
+            </div>
+
+        </div>
+       
+        <button class="reset-btn" onclick="reset()">RESET</button>
+    </div>
+    <script src="basketball.js"></script>
+</body>
+</html>
